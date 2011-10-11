@@ -9,6 +9,7 @@ from app_settings import TEMPLATE_CHOICES
 from models import Page, ContentItem, PageContentItem, Image, File
 import admin_forms as forms
 
+import reversion
 
 class FiberAdminSite(admin.AdminSite):
     pass
@@ -28,7 +29,7 @@ class ImageAdmin(admin.ModelAdmin):
     search_fields = ('title', )
 
 
-class ContentItemAdmin(admin.ModelAdmin):
+class ContentItemAdmin(reversion.VersionAdmin):
     list_display = ('__unicode__',)
     form = forms.ContentItemAdminForm
     fieldsets = (

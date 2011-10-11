@@ -8,7 +8,6 @@ from widgets import FiberTextarea
 import form_fields
 import validators
 
-
 class FiberURLField(models.CharField):
     description = _('URL')
 
@@ -61,7 +60,9 @@ try:
     from south.modelsinspector import add_introspection_rules
     add_introspection_rules([], [
         '^fiber\.utils\.fields\.FiberMarkupField',
-        '^fiber\.utils\.fields\.FiberHTMLField'
+        '^fiber\.utils\.fields\.FiberHTMLField',
+        '^fiber\.utils\.fields\.FiberURLField',
+        '^fiber\.utils\.fields\.FiberTextField'
     ])
 except ImportError:
     pass

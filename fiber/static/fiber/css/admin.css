@@ -75,10 +75,10 @@ div.ui-dialog form label,
 	width: 230px;
 	height: 100%;
 	border-right: 1px solid #a6a6a6;
-	background: #d5d5d5;
-	background: -webkit-gradient(linear, left top, left bottom, from(#eaeaea), to(#c2c2c2));
+	background: #cdd5e1;
+	/*background: -webkit-gradient(linear, left top, left bottom, from(#eaeaea), to(#c2c2c2));
 	background: -moz-linear-gradient(top, #eaeaea, #c2c2c2);
-	filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='#eaeaea', endColorstr='#c2c2c2');
+	filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='#eaeaea', endColorstr='#c2c2c2');*/
 	overflow-y: auto;
 	overflow-x: hidden;
 	padding-top: 0;

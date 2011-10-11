@@ -13,7 +13,7 @@ Fiber.enhance_textarea = function(textarea) {
 		[
 			['Format'],
 			['Bold','Italic'],
-			['NumberedList','BulletedList','Outdent','Indent'],
+			['NumberedList','BulletedList','Outdent','Indent','JustifyLeft','JustifyCenter','JustifyRight'],
 			['fPageLink','fFileLink','fImageLink','fCustomLink','fUnlink'],
 			['fImage','fTable'],
 			['PasteText','PasteFromWord','RemoveFormat'],
